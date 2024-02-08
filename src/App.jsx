@@ -18,7 +18,7 @@ function App() {
 
 const formSubmit = (data)=>{
   console.log(data);
-  instance.post('http://localhost:2003/api/v1/register',data)
+  instance.post('http://localhost:6000/api/v1/register',data)
 }
 
   return (
